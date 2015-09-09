@@ -31,7 +31,7 @@ Run `$ composer require spotonlive/sl-entrust-doctrine-orm`
 ```php
 use Doctrine\Common\Collections\ArrayCollection;
 
-class User implements SpotOnLive\EntrustDoctrineORM\Entities\UserRoleInterface
+class User implements \SpotOnLive\EntrustDoctrineORM\Entities\UserRoleInterface
 {
     /**
      * @var \SpotOnLive\EntrustDoctrineORM\Entities\RoleInterface[]|ArrayCollection
