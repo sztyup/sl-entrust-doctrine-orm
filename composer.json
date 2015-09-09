@@ -1,0 +1,33 @@
+{
+  "name": "spotonlive/sl-entrust-doctrine-orm",
+  "type": "library",
+  "description": "Doctrine2 ORM bridge for Zizco Entrust",
+  "keywords": [
+    "doctrine",
+    "orm",
+    "doctrine2",
+    "zizaco/entrust",
+    "laravel 5.1"
+  ],
+  "homepage": "https://github.com/spotonlive/sl-entrust-doctrine-orm",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nikolaj Petersen",
+      "email": "nikolaj.lovenhardt@gmail.com",
+      "homepage": "http://spotonmarketing.dk"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "zizaco/entrust": "1.4.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "SpotOnLive\\EntrustDoctrineORM": "src/SpotOnLive/EntrustDoctrineORM"
+    }
+  }
+}
