@@ -89,3 +89,11 @@ class User implements SpotOnLive\EntrustDoctrineORM\Entities\UserRoleInterface
 
 `$ vendor/bin/doctrine-laravel migrations:diff` and then
 `$ vendor/bin/doctrine-laravel migrations:migrate`
+
+## Dependencies
+* [**atrauzzi/laravel-doctrine**](https://github.com/atrauzzi/laravel-doctrine)
+* [**zizaco/entrust**](https://github.com/Zizaco/entrust)
+
+## Organization & authors
+* [**spotonlive**](https://github.com/spotonlive)
+* [**nikolajpetersen**](https://github.com/Nikolajpetersen)
