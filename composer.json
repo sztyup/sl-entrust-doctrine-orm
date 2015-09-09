@@ -20,7 +20,7 @@
   ],
   "require": {
     "php": ">=5.4.0",
-    "zizaco/entrust": "1.4.*"
+    "zizaco/entrust": "~1.4.1"
   },
   "require-dev": {
     "phpunit/phpunit": "~4.0"
