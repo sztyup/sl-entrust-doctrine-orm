@@ -27,7 +27,7 @@
   },
   "autoload": {
     "psr-4": {
-      "SpotOnLive\\EntrustDoctrineORM": "src/SpotOnLive/EntrustDoctrineORM"
+      "SpotOnLive\\EntrustDoctrineORM\\": "src/SpotOnLive/EntrustDoctrineORM/"
     }
   }
 }
