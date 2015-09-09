@@ -6,8 +6,8 @@
     "doctrine",
     "orm",
     "doctrine2",
-    "zizaco/entrust",
-    "laravel 5.1"
+    "entrust",
+    "laravel"
   ],
   "homepage": "https://github.com/spotonlive/sl-entrust-doctrine-orm",
   "license": "MIT",
