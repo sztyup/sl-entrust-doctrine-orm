@@ -85,6 +85,9 @@ class User implements SpotOnLive\EntrustDoctrineORM\Entities\UserRoleInterface
 }
 ```
 
+### Traits
+Add `\SpotOnLive\EntrustDoctrineORM\Traits\EntrustDoctrineORMUserTrait` to your User entity to get the original model functionality from entrust .
+
 ### Migrations
 
 `$ vendor/bin/doctrine-laravel migrations:diff` and then
@@ -97,7 +100,3 @@ class User implements SpotOnLive\EntrustDoctrineORM\Entities\UserRoleInterface
 ## Organization & authors
 * [**spotonlive**](https://github.com/spotonlive)
 * [**nikolajpetersen**](https://github.com/Nikolajpetersen)
-
-
-### Traits
-Add `\SpotOnLive\EntrustDoctrineORM\Traits\EntrustDoctrineORMUserTrait` to your User entity to get the original model functionality from entrust .
