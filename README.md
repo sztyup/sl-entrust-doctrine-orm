@@ -14,6 +14,7 @@ Run `$ composer require spotonlive/sl-entrust-doctrine-orm`
 	    (...)
 		SpotOnLive\EntrustDoctrineORM\EntrustDoctrineORMServiceProvider::class,
 		Atrauzzi\LaravelDoctrine\ServiceProvider::class,
+        'Zizaco\Entrust\EntrustServiceProvider',
 	    (...)
 	]
 
