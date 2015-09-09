@@ -28,7 +28,6 @@ trait EntrustDoctrineORMUserTrait
     {
         if (is_array($name)) {
             // Check array of roles
-
             foreach ($name as $roleName) {
                 if (!$this->hasRole($roleName)) {
                     return false;
