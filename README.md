@@ -1,4 +1,4 @@
-# Doctrine2 orm bridge for zizaco/entrust
+# atrauzzi/laravel-doctrine integration for zizaco/entrust
 
 **THIS PACKAGE IS UNDER DEVELOPMENT**
 
