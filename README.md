@@ -87,4 +87,5 @@ class User implements SpotOnLive\EntrustDoctrineORM\Entities\UserRoleInterface
 
 ### Migrations
 
-run `$ vendor/bin/doctrine-laravel migrations:diff` and then `$ vendor/bin/doctrine-laravel migrations:migrate`
+`$ vendor/bin/doctrine-laravel migrations:diff` and then
+`$ vendor/bin/doctrine-laravel migrations:migrate`
