@@ -28,10 +28,20 @@ trait EntrustDoctrineORMUserTrait
     {
         if (is_array($name)) {
             // Check array of roles
+            $hasOneRole = false;
+
             foreach ($name as $roleName) {
                 if (!$this->hasRole($roleName)) {
-                    return false;
+                    if ($requireAll) {
+                        return false;
+                    }
+                } else {
+                    $hasOneRole = true;
                 }
+            }
+
+            if (!$hasOneRole) {
+                return false;
             }
 
             return true;
@@ -58,11 +68,20 @@ trait EntrustDoctrineORMUserTrait
     {
         if (is_array($name)) {
             // Array of permissions
+            $hasOnePermission = false;
 
             foreach ($name as $permissionName) {
                 if (!$this->can($permissionName)) {
-                    return false;
+                    if ($requireAll) {
+                        return false;
+                    }
+                } else {
+                    $hasOnePermission = true;
                 }
+            }
+
+            if (!$hasOnePermission) {
+                return false;
             }
 
             return true;
