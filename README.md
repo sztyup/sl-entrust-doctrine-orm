@@ -1,5 +1,7 @@
 # atrauzzi/laravel-doctrine integration for zizaco/entrust
 
+[![Latest Stable Version](https://poser.pugx.org/spotonlive/sl-entrust-doctrine-orm/v/stable)](https://packagist.org/packages/spotonlive/sl-entrust-doctrine-orm) [![Total Downloads](https://poser.pugx.org/spotonlive/sl-entrust-doctrine-orm/downloads)](https://packagist.org/packages/spotonlive/sl-entrust-doctrine-orm) [![Latest Unstable Version](https://poser.pugx.org/spotonlive/sl-entrust-doctrine-orm/v/unstable)](https://packagist.org/packages/spotonlive/sl-entrust-doctrine-orm) [![License](https://poser.pugx.org/spotonlive/sl-entrust-doctrine-orm/license)](https://packagist.org/packages/spotonlive/sl-entrust-doctrine-orm)
+
 **THIS PACKAGE IS UNDER DEVELOPMENT**
 
 ## Configuration
