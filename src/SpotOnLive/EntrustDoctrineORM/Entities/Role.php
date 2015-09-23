@@ -48,7 +48,7 @@ class Role implements RoleInterface
      * @ORM\ManyToMany(targetEntity="SpotOnLive\EntrustDoctrineORM\Entities\Permission")
      * @ORM\JoinTable(name="role_permission_linker",
      *      joinColumns={@ORM\JoinColumn(name="role_id", referencedColumnName="id")},
-     *      inverseJoinColumns={@ORM\JoinColumn(name="permission_id", referencedColumnName="id", unique=true)}
+     *      inverseJoinColumns={@ORM\JoinColumn(name="permission_id", referencedColumnName="id")}
      *      )
      **/
     protected $permissions;

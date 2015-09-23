@@ -41,7 +41,7 @@ class User implements \SpotOnLive\EntrustDoctrineORM\Entities\UserRoleInterface
      * @ORM\ManyToMany(targetEntity="SpotOnLive\EntrustDoctrineORM\Entities\Role")
      * @ORM\JoinTable(name="user_role_linker",
      *      joinColumns={@ORM\JoinColumn(name="user_id", referencedColumnName="id")},
-     *      inverseJoinColumns={@ORM\JoinColumn(name="role_id", referencedColumnName="id", unique=true)}
+     *      inverseJoinColumns={@ORM\JoinColumn(name="role_id", referencedColumnName="id")}
      *      )
      **/
     protected $roles;
