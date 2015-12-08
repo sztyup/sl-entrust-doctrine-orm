@@ -10,7 +10,6 @@
 Run `$ composer require spotonlive/sl-entrust-doctrine-orm`
 
 **config/app.php**
-*Note: It is important that the providers are appended in this order*
 ```
     'providers' => [
 	    (...)
@@ -27,7 +26,6 @@ Run `$ composer require spotonlive/sl-entrust-doctrine-orm`
 ```
 
 **User.php**
-*Your user entity*
 ```php
 use Doctrine\Common\Collections\ArrayCollection;
 
@@ -86,12 +84,12 @@ class User implements \SpotOnLive\EntrustDoctrineORM\Entities\UserRoleInterface
 ```
 
 ### Traits
-Add `\SpotOnLive\EntrustDoctrineORM\Traits\EntrustDoctrineORMUserTrait` to your User entity to get the original model functionality from entrust .
+Use `\SpotOnLive\EntrustDoctrineORM\Traits\EntrustDoctrineORMUserTrait` in your entity.
 
 ### Migrations
-
-`$ vendor/bin/doctrine-laravel migrations:diff` and then
-`$ vendor/bin/doctrine-laravel migrations:migrate`
+- Difference: `$ vendor/bin/doctrine-laravel migrations:diff`
+- Migrate: `$ vendor/bin/doctrine-laravel migrations:migrate`
+[*laravel-doctrine/migrations*](https://github.com/laravel-doctrine/migrations)
 
 ## Dependencies
 * [**zizaco/entrust**](https://github.com/Zizaco/entrust)
