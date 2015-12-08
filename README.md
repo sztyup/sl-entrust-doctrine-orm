@@ -1,4 +1,4 @@
-# atrauzzi/laravel-doctrine integration for zizaco/entrust
+# Doctrine2 ORM - zizaco/entrust
 
 [![Latest Stable Version](https://poser.pugx.org/spotonlive/sl-entrust-doctrine-orm/v/stable)](https://packagist.org/packages/spotonlive/sl-entrust-doctrine-orm) [![Total Downloads](https://poser.pugx.org/spotonlive/sl-entrust-doctrine-orm/downloads)](https://packagist.org/packages/spotonlive/sl-entrust-doctrine-orm) [![Latest Unstable Version](https://poser.pugx.org/spotonlive/sl-entrust-doctrine-orm/v/unstable)](https://packagist.org/packages/spotonlive/sl-entrust-doctrine-orm) [![License](https://poser.pugx.org/spotonlive/sl-entrust-doctrine-orm/license)](https://packagist.org/packages/spotonlive/sl-entrust-doctrine-orm)
 
@@ -15,14 +15,12 @@ Run `$ composer require spotonlive/sl-entrust-doctrine-orm`
     'providers' => [
 	    (...)
 		SpotOnLive\EntrustDoctrineORM\EntrustDoctrineORMServiceProvider::class,
-		Atrauzzi\LaravelDoctrine\ServiceProvider::class,
         'Zizaco\Entrust\EntrustServiceProvider',
 	    (...)
 	]
 
     'aliases' => [
 	    (...)
-        'EntityManager' => Atrauzzi\LaravelDoctrine\Support\Facades\Doctrine::class,
         'Entrust' => 'Zizaco\Entrust\EntrustFacade'
 	    (...)
 	]
@@ -96,8 +94,10 @@ Add `\SpotOnLive\EntrustDoctrineORM\Traits\EntrustDoctrineORMUserTrait` to your 
 `$ vendor/bin/doctrine-laravel migrations:migrate`
 
 ## Dependencies
-* [**atrauzzi/laravel-doctrine**](https://github.com/atrauzzi/laravel-doctrine)
 * [**zizaco/entrust**](https://github.com/Zizaco/entrust)
+
+## Doctrine for laravel
+* [**laravel-doctrine/orm**](https://packagist.org/packages/laravel-doctrine/orm)
 
 ## Organization & authors
 * [**spotonlive**](https://github.com/spotonlive)

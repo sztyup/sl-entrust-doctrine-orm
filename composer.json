@@ -1,7 +1,7 @@
 {
   "name": "spotonlive/sl-entrust-doctrine-orm",
   "type": "library",
-  "description": "atrauzzi/laravel-doctrine integration for Zizco Entrust (Laravel 5.1) for Zizco Entrust",
+  "description": "Doctrine2 ORM - Zizco Entrust (Laravel 5.1) for Zizco Entrust",
   "keywords": [
     "doctrine",
     "orm",
@@ -21,7 +21,6 @@
   "require": {
     "php": ">=5.4.0",
     "zizaco/entrust": "~1.4.1",
-    "atrauzzi/laravel-doctrine": "dev-master",
     "ramsey/uuid": "2.8.*"
   },
   "require-dev": {
@@ -29,7 +28,6 @@
     "phpunit/phpunit": "~4.0",
     "laravel/framework": "~5.1",
     "zizaco/entrust": "~1.4.1",
-    "atrauzzi/laravel-doctrine": "dev-master",
     "ramsey/uuid": "2.8.*",
     "mockery/mockery": "~0.9.4"
   },
