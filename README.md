@@ -89,6 +89,7 @@ Use `\SpotOnLive\EntrustDoctrineORM\Traits\EntrustDoctrineORMUserTrait` in your 
 ### Migrations
 - Difference: `$ vendor/bin/doctrine-laravel migrations:diff`
 - Migrate: `$ vendor/bin/doctrine-laravel migrations:migrate`
+
 [*laravel-doctrine/migrations*](https://github.com/laravel-doctrine/migrations)
 
 ## Dependencies
@@ -99,4 +100,4 @@ Use `\SpotOnLive\EntrustDoctrineORM\Traits\EntrustDoctrineORMUserTrait` in your 
 
 ## Organization & authors
 * [**spotonlive**](https://github.com/spotonlive)
-* [**nikolajpetersen**](https://github.com/Nikolajpetersen)
+* [**nikolajlovenhardt**](https://github.com/nikolajlovenhardt)
