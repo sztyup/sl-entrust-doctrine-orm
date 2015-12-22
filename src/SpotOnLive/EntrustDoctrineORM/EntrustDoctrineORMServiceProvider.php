@@ -16,6 +16,13 @@ class EntrustDoctrineORMServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->app->make('SpotOnLive\EntrustDoctrineORM\EntrustDoctrineORM');
+
+        // Support for laravel-doctrine/orm
+        if (class_exists('\LaravelDoctrine\ORM\DoctrineManager')) {
+            $this->app->make('\LaravelDoctrine\ORM\DoctrineManager')->addPaths([
+                __DIR__ . DIRECTORY_SEPARATOR,
+            ]);
+        }
     }
 
     /**
